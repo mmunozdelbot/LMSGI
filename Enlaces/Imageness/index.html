@@ -1,11 +1,31 @@
 <!DOCTYPE html>
-<html lang="ez">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Imágenes</title>
 </head>
+ <!--<body style="background-image: url(google2.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+            ">-->
+<!--<body style="background: url(google2.png) no-repeat center fixed;">-->
+   
 <body>
-    
+    <img src="google2.png" alt="Logo Google" usemap="#formas" ismap="ismap">    
+    <map name="formas" id="formas">
+        <area shape="poly" 
+            coords="8,94,11,76,22,59,42,49,68,50,83,61,91,74,96,94" 
+            href="http://www.google.es"
+            target="_blank">
+        <area shape="poly" coords="96,96,96,8,108,9,124,14,137,28,143,42,143,60,132,82,120,91,108,95" 
+        href="http://www.google.es" 
+        target="_blank">
+        <area shape="circle" 
+            coords="75,143,20" 
+            href="http://www.google.es"
+            target="_blank">
+    </map>
 </body>
 </html>

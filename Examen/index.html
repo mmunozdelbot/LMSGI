@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen</title>
+</head>
+<body>
+
+    <p>
+        <h2>El Ártico ha perdido el 14% de su hielo marino perenne en un solo año</h2>
+       <b>WHASHINGTON.-</b> El hielo pernne del Ártico se redujo en un 14% durante el últimmo año, al perder <b>720.000 kilómetros cuadrados</b>, una superficie superior a la
+        Península Ibérica, según datos de la <u>NASA.</u>
+    </p>
+
+    <br></br>
+    <blockquote style="background: yellow; height: 200px; width: 300px;">
+        <h2 style="text-align: center;"><span style="color: orange;">Lista de enlaces</span></h2>
+
+        <ul >
+            <li>Buscadores
+                <ul style="list-style-type: circle;">
+                    <a href="https://www.bing.com/?setlang=es"> <span style="color: purple;">Bing</span></a>
+                </ul>
+                <ul style="list-style-type: circle;">
+                    <a href="www.google.es"> <span style="color: green; ">Google</span></a>
+                </ul>
+            </li>
+            <li>Redes Sociales
+                <ul style="list-style-type: circle;">
+                    <a href="https://www.facebook.com/"> <span style="color: red;">Facebook</span></a>
+                </ul>
+                <ul style="list-style-type: circle;">
+                    <a href="https://mobile.twitter.com/?lang=es"> <span style="color: red;">Twitter</span></a>
+                </ul>
+            </li>
+            
+        </ul>
+
+    </blockquote>
+
+    <br></br>
+
+    <p> 
+        
+        <h4 style="text-align: left;">Encabezado Izquierda</h4>
+        <img src="atardecer.jpg" alt="atardecer" style="width: 150px; height: 75px; float: left;">La música es, según la definición tradicional del término, el arte de organizar sensible y lógicamente una combinación coherente de sonidos y silencios respetando los principios fundamentales de la melodía, la armonía y el ritmo, mediante la intervención de complejos procesos
+        
+    </p>
+
+    <br></br>
+
+
+    <table style="border: 1px solid black;" rules="groups">
+        <tr>
+            <th style="padding: 10px; border: 1px solid black; text-align: center;">Lunes</th>
+            <th style="padding: 10px; border: 1px solid black; text-align: center;">Martes</th>
+            <th style="padding: 10px; border: 1px solid black; text-align: center;">Miércoles</th>
+            <th style="padding: 10px; border: 1px solid black; text-align: center;">Jueves</th>
+            <th style="padding: 10px; border: 1px solid black; text-align: center;">Viernes</th>
+        </tr>
+        <tr>
+            <td style=" border: 1px solid black; text-align: center;">Mates</td>
+            <td style="padding: 10px; border: 1px solid black; text-align: center;" colspan="3" rowspan="2">Dibujo</td>
+            <td style="padding: 10px; border: 1px solid black; text-align: center;" rowspan="3">Historia</td>
+        </tr>
+        <tr>
+            <td style="padding: 10px; border: 1px solid black; text-align: center;" rowspan="3">Física</td>
+        </tr>
+        <tr>
+            <td style=" border: 1px solid black; text-align: center;">Descanso</td>
+            <td style=" border: 1px solid black; text-align: center;">Descanso</td>
+            <td style=" border: 1px solid black; text-align: center;">Descanso</td>
+        </tr>
+        <tr>
+            <td style=" border: 1px solid black; text-align: center;">Gimnasia</td>
+            <td style=" border: 1px solid black; text-align: center;">..futbolín..</td>
+            <td style=" border: 1px solid black; text-align: center;">Gimnasia</td>
+            <td style=" border: 1px solid black; text-align: center;">Mates</td>
+        </tr>
+
+    </table>
+
+    <br></br>
+
+    <div style="background: yellow; width: 500px; height: 400px;">
+    <div style="background: orange; width: 450px; height: 100px; margin-left: 25px; margin-top: 25px; text-align: center; position: relative;"><span><h1 style="margin-top: 25px;">Header</h1></span></div>
+    
+    </div>
+
+    <br></br>
+
+    <div style="margin: 0px auto;">
+        <fieldset>
+            <form action="registro.php" method="POST">
+            <table>
+                <tr>
+                    <td><label for="nombre">Name :</label></td>
+                    <td><input type="text" autofocus placeholder="Name" name="nombre" id="nombre" pattern="[A-Z]"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="pass">Password :</label></td>
+                    <td>
+                        <input type="password" name="pass" id="pass" placeholder="Password"/>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="pregunta">Gender :</label>
+                    </td>
+                    <td>
+                        <input type="radio" name="gender" 
+                                id="pregunta" value="m" /><span>Male</span> 
+                        <input type="radio" name="gender" 
+                                id="pregunta" value="f" /><span>Female</span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="text">Email :</label></td>
+                    <td><input type="email" name="email" id="email" required maxlength="30" placeholder="Email"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="telefono">Phone no :</label></td>
+                    <td><select name="prefijo" id="prefijo">
+                        <option value="997"><b>997</b></option>
+                        <option value="54">54</option>
+                        <option value="43">43</option>
+                        <option value="37">37</option>
+                    </select>
+                    </td>
+                    <td><input type="tel" name="tel" id="tel" pattern="[0-9]" maxlength="9" placeholder="98480*****"></td>
+                </tr>
+                
+
+                <tr>               
+                    <td><input type="submit" value="Submit"></td>
+                </tr>
+
+            </table>
+            </form>
+        </fieldset>
+    </div>
+
+
+    
+</body>
+</html>

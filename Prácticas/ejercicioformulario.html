@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TASK 4</title>
+</head>
+<body>
+    <div style="margin: 0px auto;">
+        <fieldset>
+            <legend>Solicitúd de trabajo</legend>
+            <form action="registro.php" method="POST">
+            <table>
+                <tr>
+                    <td><label for="nombre">Nombre</label></td>
+                    <td><input type="text" autofocus placeholder="Escriba aquí" name="nombre" id="nombre" size="30" maxlength="20" pattern="[A-Z]"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="apellidos">Apellidos</label></td>
+                    <td><input type="text" placeholder="Escriba aquí" name="apellidos" id="apellidos" size="30" maxlength="30" pattern="[A-Z]"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="edad">Edad</label></td>
+                    <td><input type="number" name="edad" id="edad" size="10" min="16"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="text">Dirección</label></td>
+                    <td><input type="text" name="dirección" id="dirección" size="30" maxlength="30" placeholder="Escriba aquí"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="ciudad"></label>Ciudad</td>
+                    <td><select name="ciudad" id="ciudad">
+                        <option value="0">Seleccione ciudad</option>
+                        <option value="41">Sevilla</option>
+                        <option value="39">Cádiz</option>
+                        <option value="37">Huelva</option>
+                    </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="telefono">Teléfono</label></td>
+                    <td><input type="tel" name="tel" id="tel" pattern="[0-9]" maxlength="9"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="pregunta">¿Has trabajado antes?</label></td>
+                    <td>
+                        <input type="radio" name="pregunta" id="pregunta" value="S"><span>Sí</span>
+                        <input type="radio" name="pregunta" id="pregunta" value="N"><span>No</span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="fecha">Fecha de su último trabajo</label></td>
+                    <td><input type="date" name="fecha" id="fecha"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="redes sociales">Redes sociales</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="Instagram" id="Instagram" value="i"><span>Instagram</span>
+                        <input type="checkbox" name="Twitter" id="Twitter" value="t"><span>Twitter</span>
+                        <input type="checkbox" name="Facebook" id="Facebook" value="f"><span>Facebook</span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="mensaje">Descripción propia para el puesto</label></td>
+                    <td><textarea name="mensaje" id="mensaje" cols="50" rows="10" maxlength="1000"></textarea></td>
+                </tr>
+
+                <tr>
+                    <td><label for="text">Email</label></td>
+                    <td><input type="email" name="email" id="email" required size="30" maxlength="30"></td>
+                </tr>
+
+                <tr>               
+                    <td><input type="submit" value="Enviar"></td>
+                </tr>
+
+            </table>
+            </form>
+        </fieldset>
+    </div>
+</body>
+</html>

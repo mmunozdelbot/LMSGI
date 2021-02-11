@@ -1,0 +1,27 @@
+
+body {
+    background: lightgray;
+    border: 5px solid black;
+    margin: 20px 20px 20px  ;
+}
+
+
+#head {
+    background: lightgreen;
+    height: 150px;
+    padding: 0px;
+}
+
+#cara {
+    
+    float: left;
+    text-align: left;
+    margin: 20px;
+}
+
+#web {
+    float: left;
+    text-align: left;
+    margin: 20px;
+}
+

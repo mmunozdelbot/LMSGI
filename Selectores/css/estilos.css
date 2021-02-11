@@ -1,0 +1,105 @@
+a,p {
+    font-size: 18px;
+}
+
+div a {
+    color: crimson;
+}
+
+div#capa1 {
+    background: rgb(102, 167, 184);
+}
+
+.letraGrande {
+    font-size: xx-large;
+}
+
+.nosubrayado {
+    text-decoration: none;
+}
+
+div#capa1 a.encima:hover {
+    font-size: xx-large;
+    color: yellow;
+}
+
+div#capa1 a.encima:link {
+    font-size: xx-large;
+    color: yellow;
+}
+
+div#capa1 a.encima:visited {
+    font-size: xx-large;
+    color: yellow;
+}
+
+p#miparrafo::first-line {
+    font-weight: bold;
+}
+
+p#miparrafo::first-letter {
+    font-size: 60px;
+    color: brown;
+    font-family: monospace;
+}
+
+ul#capafinal li:first-child{
+    background: magenta;
+}
+
+ul#capafinal li:last-child{
+    background: grey;
+}
+
+
+div#capa1 * {
+    background: rgb(241, 87, 255);
+}
+
+div > a {
+    font-style: italic;
+}
+.bordecapa {
+    border: 2px solid black;
+}
+
+a[href^="https"] {
+    color: green;
+    font-weight: bold;
+}
+
+a[href*="triana"] {
+    background: darkblue;
+}
+
+a[href$="pdf"] {
+    text-transform: uppercase;
+}
+
+div + p {
+    font-size: 30px;
+}
+
+input:focus {
+    border: 3px solid blue;
+}
+
+input:enabled {
+    border: 3px solid blue;
+}
+
+input:disabled {
+    border: 3px solid red;
+}
+
+input:checked {
+    border: 3px solid green;
+}
+
+a[target=_blank] {
+    font-weight: bold;
+}
+
+:not(p) {
+    text-decoration: underline;
+}

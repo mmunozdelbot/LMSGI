@@ -1,0 +1,44 @@
+h2, span{
+	font-style: italic;
+}
+#datos{
+	background-color: gray;
+	color: black;
+	width: 30%;
+}
+#negrita{
+	font-weight: bold;
+}
+#negrita_2{
+	font-weight: bold;
+	font-size: 80px;
+}
+.segundo{
+	color: black;
+}
+.segundo:active{ 
+	color: green;
+}
+a{
+	text-decoration:none;
+}
+.azules{
+	text-decoration:none;
+	color: blue;
+}
+.rojos{
+	text-decoration:none;
+		color: red;
+
+}
+#azul1:hover{
+	font-size: 20px;
+
+}
+#azul2:hover{
+	font-size: 50px;
+}
+#fondo-gris{
+	background-color: gray;
+	width: 30%
+}

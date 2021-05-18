@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>examenjs</title>
+    <script type="text/javascript" src="js/examenjs.js"></script>
+</head>
+<body>
+    <div style="width: 50%;float: left;">
+        <form action="" method="GET" name="nombreFormulario" onsubmit="return validarFormulario()">
+            <table>
+                <tr>
+                    <td><label for="campo">Login</label></td>
+                    <td><input type="text" name="campo" id="campo"></td>
+                </tr>
+                <tr>
+                    <td><label for="telefono">Teléfono</label></td>
+                    <td><input type="tel" name="telefono" id="telefono"></td>
+                </tr>
+                <tr>
+                    <td><label for="web">Web</label></td>
+                    <td><input type="text" name="web" id="web"></td>
+                </tr>
+                <tr>
+                    <td><label for="aficion1">Deporte</label></td>
+                    <td><input type="checkbox" name="aficion1" id="aficion1"></td>
+                </tr>
+                <tr>
+                    <td><label for="aficion2">Cine</label></td>
+                    <td><input type="checkbox" name="aficion2" id="aficion2"></td>
+                </tr>
+                <tr>
+                    <td><label for="aficion3">Música</label></td>
+                    <td><input type="checkbox" name="aficion3" id="aficion3"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="submit" value="Enviar"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    <div id="capaerrores" style="width: 50%;float: left;color: red;visibility: hidden;">
+        <h3>Errores</h3>
+        <span id="errores"></span>
+    </div>
+    <p>
+        <a href="#" id="negrita">google.es</a>
+        <br>
+        <a href="#" id="letra">facebook.es</a>
+        <br>
+        <a href="#" id="color">gmail.com</a>
+        <br>
+        <input type="button" value="Cambiar" onclick="cambiar()">
+    </p>
+        <div style="width: 50%;float: right;">
+        <table>
+            <tr>
+                <td><label for="nombre">Producto: </label></td>
+                <td><input type="text" name="nombre" id="nombre"></td>
+            </tr>
+            <tr>
+                <td><label for="precio">Precio (€): </label></td>
+                <td><input type="number" name="precio" id="precio"></td>
+            </tr>
+            <tr>
+                <td><label for="iva">Iva:</label></td>
+                <td>
+                    <select name="iva" id="iva">
+                        <option value="8">8%</option>
+                        <option value="12">12%</option>
+                        <option value="16">16%</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="button" value="Calcular precio final" onclick="calcular()"></td>
+            </tr>
+        </table>
+            <span id="resultado"></span>
+        </div>
+</body>
+</html>

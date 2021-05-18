@@ -1,0 +1,65 @@
+/* line 7, D:/Visual code/LMSGI/Sass/scss/estilos.scss */
+body {
+  background-color: #df0174;
+  margin: 2em;
+}
+
+/* line 14, D:/Visual code/LMSGI/Sass/scss/estilos.scss */
+#main {
+  width: 97%;
+}
+
+/* line 16, D:/Visual code/LMSGI/Sass/scss/estilos.scss */
+#main p, #main div {
+  font-size: 20px;
+}
+
+/* line 18, D:/Visual code/LMSGI/Sass/scss/estilos.scss */
+#main p a, #main div a {
+  text-decoration: none;
+}
+
+/* line 22, D:/Visual code/LMSGI/Sass/scss/estilos.scss */
+#main span {
+  font-size: 22px;
+}
+
+/* line 27, D:/Visual code/LMSGI/Sass/scss/estilos.scss */
+a {
+  font-weight: bold;
+}
+
+/* line 29, D:/Visual code/LMSGI/Sass/scss/estilos.scss */
+a:hover {
+  text-decoration: none;
+}
+
+/* line 34, D:/Visual code/LMSGI/Sass/scss/estilos.scss */
+#main {
+  color: blue;
+}
+
+/* line 36, D:/Visual code/LMSGI/Sass/scss/estilos.scss */
+#main-lateral {
+  color: green;
+}
+
+/* line 42, D:/Visual code/LMSGI/Sass/scss/estilos.scss */
+.parrafo {
+  font-family: fantasy;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* line 50, D:/Visual code/LMSGI/Sass/scss/estilos.scss */
+p {
+  color: #ffffff;
+}
+
+/* line 60, D:/Visual code/LMSGI/Sass/scss/estilos.scss */
+#capa a {
+  color: blue;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=estilos.css.map */
